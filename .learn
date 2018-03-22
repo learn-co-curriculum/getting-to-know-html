@@ -1,8 +1,6 @@
 tags:
-  - html
-  - front-end
-  - video
+  - bundler
+  - introduction
 languages:
-  - HTML
-resources:
-  - 0
+  - ruby
+resources: 2

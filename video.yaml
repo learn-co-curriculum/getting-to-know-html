@@ -1,0 +1,381 @@
+{
+  title: "14 HTML Fundamentals - YouTube",
+  host_url: "https://www.youtube.com/watch?v=tuDKQxfiXmY",
+  presenter: "Jonathan Grover",
+  length: "11:54",
+  slides_summary: [
+    {
+      start_offset: "00:00",
+      end_offset: "00:29",
+      bullets: [
+        "Here we're going to look at the basic document structure for HTML",
+        "and how to format text and insert images and links into HTML"
+      ]
+    },
+    {
+      start_offset: "00:29",
+      end_offset: "00:56",
+      bullets: [
+        "HTML stands for Hypertext Markup Language"
+        "it's called a markup language because it doesn't really have",
+        "any logic or behavior in the way that a programming language does",
+        "It simply surrounds content in order to tell the browser",
+        "how it should display through a series of elements",
+        "different elements in HTML will format content in different ways"
+      ]
+    },
+    {
+      start_offset: "00:56",
+      end_offset: "01:25",
+      bullets: [
+        "Elements are made up of a starting tag and",
+        "sometimes an ending tag surrounding some content in the middle",
+        "Imagine that we had the sentence hello world and we wanted to",
+        "tell the browser to format that sentence as a paragraph",
+        "we would do is we would use the <p> element",
+        "which is made up of the starting <p> tag"
+      ]
+    },
+    {
+      start_offset: "01:25",
+      end_offset: "01:53",
+      bullets: [
+        "and closing </p> tag to surround that sentence that says hello world",
+        "the way that would look is we would have the",
+        "starting tag would be less than, 'p', greater than and then",
+        "the sentence hello world and then we would end it off by",
+        "saying less than, '/', 'p', greater than",
+        "the starting tag has the ability to pass in additional options",
+        "that will change the way the content is formatted"
+      ]
+    },
+    {
+      start_offset: "01:53",
+      end_offset: "02:22",
+      bullets: [
+        "inside of the starting tag we put a space after",
+        "the tag name and then any number of attributes and values which is",
+        "made up of the attribute name, an equal symbol, then, in quotes,",
+        "the particular value for that attribute",
+      ]
+    },
+    {
+      start_offset: "02:22",
+      end_offset: "02:53",
+      bullets: [
+        "all HTML pages have a common document structure",
+        "the outermost level here is enclosed within this HTML"
+        "element made up of the starting HTML tag",
+        "and ending HTML tag
+        "this just tells the browser that everything in between",
+        "these opening and closing HTML tags is",
+        "to be interpreted as HTML code",
+        "within this HTML element you can see",
+        "that the page is then broken up into two",
+        "main sections so all HTML pages have",
+        "these two main sections and that is the",
+        "head and the body of the document",
+
+      ]
+    },
+    {
+      start_offset: "02:53",
+      end_offset: "03:18",
+      bullets: [
+        "inside of the head element we will have",
+        "all sorts of metadata like search terms for search engines",
+        "the title of the page, and",
+        "links to style sheets",
+        "in the body section we're going to have all",
+        "of the visible content of the page such",
+        "as the text content that the user can see"
+      ]
+    },
+    {
+      start_offset: "03:18",
+      end_offset: "03:41",
+      bullets: [
+        "very top of our HTML page we're always",
+        "going to start off with the doctype",
+        "element and you'll notice that this is a",
+        "special element it doesn't actually have",
+        "a closing tag like the other ones we've",
+        "seen so far and this one just starts off",
+        "with the exclamation mark doctype and",
+        "then a space and then you specify which",
+        "version of HTML you're using and in"
+      ]
+    },
+    {
+      start_offset: "03:41",
+      end_offset: "04:11",
+      bullets: [
+        "html5 it's very simple if you just say",
+        "doctype space HTML the browser assumes",
+        "that it is an html5 document HTML also",
+        "provides us with various size headings",
+        "and these range from the largest h1 all",
+        "the way down to the smallest h6 and",
+        "these will physically make the text",
+        "larger and smaller and will also imply",
+        "greater importance for search engines",
+        "these are some other common text"
+      ]
+    },
+    {
+      start_offset: "04:11",
+      end_offset: "04:42",
+      bullets: [
+        "elements in HTML this first one is the P",
+        "element which designates a paragraph",
+        "this next one is a line break and that",
+        "will create a line return and we also",
+        "have HR which is a horizontal rule or",
+        "line across the page and the pre tags",
+        "allow us to surround content that has",
+        "spaces and line returns in it and it",
+        "will maintain all of those spaces within",
+        "the browser we also have the following",
+        "logical styles M and strong M which"
+      ]
+    },
+    {
+      start_offset: "04:42",
+      end_offset: "05:14",
+      bullets: [
+        "stands for emphasize will italicize the",
+        "text and strong will make the text bold",
+        "these are some common deprecated tags",
+        "you don't want to use anymore these were",
+        "left around from previous versions of",
+        "HTML but in html5 will no longer use",
+        "these such as B for bold eye for italic",
+        "you for underline s for strikethrough we",
+        "also won't be using menu center applet",
+        "or the font element HTML also gives us"
+      ]
+    },
+    {
+      start_offset: "05:14",
+      end_offset: "05:39",
+      bullets: [
+        "the ability to create lists of different",
+        "types one of these types is the",
+        "unordered lists which you can see is",
+        "created using this UL element which is",
+        "made up of the opening UL tag and the",
+        "closing UL tag and then inside of it",
+        "you'll notice that nested here we have",
+        "the li element which is made up of the",
+        "opening li tag and the closing li tag",
+        "and here in between we have the content"
+      ]
+    },
+    {
+      start_offset: "05:39",
+      end_offset: "06:13",
+      bullets: [
+        "which is an individual list item so you",
+        "l stands for unordered list and Li",
+        "stands for list item and what this will",
+        "do is it will actually show a bullet",
+        "point next to each list item we also",
+        "have ordered lists and you'll notice",
+        "that the only difference between the",
+        "unordered list and ordered lists is",
+        "simply that we use the Oh L as the",
+        "parent element instead of UL we used for",
+        "unordered list so the ordered list will",
+        "show numbers next to each list item",
+        "whereas the unordered list will show",
+        "bullet points"
+      ]
+    },
+    {
+      start_offset: "06:13",
+      end_offset: "07:01",
+      bullets: [
+        "you also have definition lists made up",
+        "of the DL element and the nested within",
+        "we have the DT and the DD tags so DT is",
+        "for the definition term and DD is for",
+        "the definition we can use the IMG",
+        "element to embed images and you can see",
+        "that this particular element does not",
+        "have a closing tag so whereas with a",
+        "paragraph we have an opening",
+        "P tag and a closing P tag and that's",
+        "very essential to tell the browser that",
+        "this is the beginning of the paragraph",
+        "and this is the end of the paragraph",
+        "however with an image there's no text",
+        "content that goes in between so the",
+        "image tag itself only has a single",
+        "opening tag and that's using the IMG tag",
+        "and there's several attributes we can"
+      ]
+    },
+    {
+      start_offset: "07:01",
+      end_offset: "07:46",
+      bullets: [
+        "see here so the first one is the SRC",
+        "attribute which stands for source and",
+        "this is telling the browser where to",
+        "look for that image that we're embedding",
+        "here at this part of the HTML page so",
+        "here I'm just using a generic file name",
+        "my image JPEG we also have the alt",
+        "attribute which here is giving",
+        "alternative text this is text that's",
+        "meant for screen readers for the",
+        "visually impaired and it's also really",
+        "useful for search engines as well you",
+        "also have the title attribute which here",
+        "we can display some text that will",
+        "appear if the user hovers the mouse over",
+        "this image for a period of time the",
+        "title text will appear you can also",
+        "specify optionally a width and height"
+      ]
+    },
+    {
+      start_offset: "07:46",
+      end_offset: "08:25",
+      bullets: [
+        "for your image using the width and",
+        "height attributes next let's take a look",
+        "at links so we'll be looking at the",
+        "different attributes inside of the link",
+        "different types of links for relative",
+        "versus absolute paths and we'll also",
+        "look at different types of links such as",
+        "the URL link a named anchor link and a",
+        "male to link this first link at the top",
+        "here is a basic URL link what we're",
+        "doing is we are linking from one web",
+        "page to another page and the way this",
+        "works is it starts off with the opening",
+        "a tag and then we put a space and we",
+        "give it an attribute and here this is",
+        "href which stands for hypertext"
+      ]
+    },
+    {
+      start_offset: "08:25",
+      end_offset: "08:59",
+      bullets: [
+        "reference and we're telling it basically",
+        "that we want to reference this other",
+        "page so we're giving it here the full",
+        "path or the absolute path of HTTP colon",
+        "slash slash W example site com so when",
+        "we click this link it's going to change",
+        "the browser or navigate the browser to",
+        "this URL here and then we what we do is",
+        "we pass it that URL within quotes after",
+        "the equal symbol here",
+        "so again that's a for the opening a tag",
+        "and then a space and then we use the",
+        "href attribute and we set it equal to"
+      ]
+    },
+    {
+      start_offset: "08:59",
+      end_offset: "09:36",
+      bullets: [
+        "the value of the WWE example.com and",
+        "then we use the greater than symbol to",
+        "close out this opening a tag so the",
+        "opening a tag goes from here to here and",
+        "then here we have the text which is",
+        "actually the part of the link that's",
+        "clickable so this is the content that's",
+        "being surrounded by the opening and",
+        "closing a tag and this is what's",
+        "actually clickable down here is an",
+        "example of the exact same type of link",
+        "except that instead of surrounding text",
+        "here it's surrounding the text this is a",
+        "link and here we're actually surrounding"
+      ]
+    },
+    {
+      start_offset: "09:36",
+      end_offset: "10:15",
+      bullets: [
+        "an image so we can also make images into",
+        "links or make the images clickable so",
+        "that they will move to another place in",
+        "the website here we also have a mail to",
+        "link and this one's the same except for",
+        "here inside of the href we've started",
+        "off with mail to and then an email",
+        "address so what this will do is if you",
+        "click this link it'll actually bring up",
+        "the users default email editor here we",
+        "have a named anchor link and the way",
+        "this works is you give an identity to a",
+        "particular tag on the page here's a",
+        "paragraph I've given the ID of tips and",
+        "then down here in the link by saying"
+      ]
+    },
+    {
+      start_offset: "10:15",
+      end_offset: "10:52",
+      bullets: [
+        "hash tag tips or pound symbol tips what",
+        "happens is when we click on this link it",
+        "will actually scroll to this place on",
+        "the page so let's talk about relative",
+        "versus absolute paths an absolute path",
+        "is when you are linking to a full URL or",
+        "a location somewhere else on the web so",
+        "if I give it the full HTTP location here",
+        "which is HTTP colon slash slash W",
+        "example.com this is an example of a full",
+        "path or a absolute path so when we click",
+        "this link it's going to navigate to"
+      ]
+    },
+    {
+      start_offset: "10:52",
+      end_offset: "11:29",
+      bullets: [
+        "somewhere else on the web we also have a",
+        "relative path and relative means that",
+        "it's linking to something relative to",
+        "the page that we're currently on and",
+        "this is typically used to link to other",
+        "pages within the same web site",
+        "so for example this is a link going to",
+        "the about page so if I'm on the home",
+        "page if I click this link I'm going to",
+        "go to the about page and because these",
+        "pages are in the same folder we can just",
+        "simply give the name of the file and we",
+        "don't have to give the full or absolute",
+        "path last but not least let's talk about",
+        "validation so this is a really important"
+      ]
+    },
+    {
+      start_offset: "11:29",
+      end_offset: "11:54",
+      bullets: [
+        "part of HTML development is along the",
+        "way you might have little typos or",
+        "issues with your code and we can always",
+        "validate the code to make sure there's",
+        "no errors in the code by pasting it in",
+        "here at one of these validation engines",
+        "so this is the one I'm going to",
+        "recommend which is the official",
+        "validator at validator w3.org and we'll",
+        "take a look at that in the upcoming",
+        "example"
+      ]
+    }
+  ]
+}
