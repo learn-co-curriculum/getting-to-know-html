@@ -1,6 +1,6 @@
 # HTML Fundamentals
 
-## Objectives
+## Learning Goals
 
 - Identify ordered, unordered and definition lists
 - Identify images
