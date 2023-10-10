@@ -1,6 +1,13 @@
 # HTML Fundamentals
 
-## Problem Statement
+## Objectives
+
+- Identify ordered, unordered and definition lists
+- Identify images
+- Identify links
+- Identify HTML validation tools
+
+## Introduction
 
 After learning the basics of HTML, including tag and document structure, you
 might be wondering what else is available to use to build out full webpages. How
@@ -9,14 +16,7 @@ link page elements beyond text? Now you're ready to explore these fundamental
 tools. Here's a high-level overview before you dive into practicing with the
 labs.
 
-## Objectives
-
-1. Identify ordered, unordered and definition lists
-2. Identify images
-3. Identify links
-4. Identify HTML validation tools
-
-### Identify ordered, unordered and definition lists
+## Identify ordered, unordered and definition lists
 
 When we want to present a list of items in a clear, readable format, we turn to
 the HTML unordered list, represented by the the `ul` tag.
@@ -51,7 +51,7 @@ types of items.
 </dl>
 ```
 
-### Identify images
+## Identify images
 
 To include an image in our page, we use an `img` tag.
 
@@ -65,9 +65,9 @@ closing tag. This tag closes itself. Secondly, it handles a lot of attributes.
 Our `alt` attribute provides descriptive text the browser can display if it
 can't find the image file. The browser can also display the `title` text to give
 the user more information about the image. The `width` and `height` attributes
-define the size of the image that shows up in the browser. 
+define the size of the image that shows up in the browser.
 
-### Identify links
+## Identify links
 
 You might be familiar with basic link structure already, but here are other ways
 we can power them up.
@@ -115,7 +115,7 @@ fully defined URL path. This is likely the type of link you see most often.
 <a href="http://example.com/">This is an absolute URL link</a>
 ```
 
-### Identify HTML validation tools
+## Identify HTML validation tools
 
 It's easy to forget a closing HTML tag or miss a piece of punctuation when
 writing HTML. Fortunately, we have a tool that will check our markup for us and
@@ -124,7 +124,7 @@ point out any errors. To validate our HTML, we can use the [W3 HTML validator]
 
 ## Resources
 
-* [HTML Fundamentals overview video](https://www.youtube.com/watch?v=tuDKQxfiXmY)
+- [HTML Fundamentals overview video](https://www.youtube.com/watch?v=tuDKQxfiXmY)
 
 ## Conclusion
 
